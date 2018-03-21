@@ -14,4 +14,7 @@ class StudentsController < ApplicationController
     student = Student.create(params.require(:student).permit(:first_name, :last_name))
     redirect_to student_path(student)
   end
+
+  def update
+  end
 end
