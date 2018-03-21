@@ -452,3 +452,5 @@ Started GET "/students/1" for 127.0.0.1 at 2018-03-21 21:44:53 +0000
   [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "school_classes"[0m
 Processing by SchoolClassesController#create as HTML
   Parameters: {"school_class"=>{"title"=>"Computer Science", "room_number"=>"5"}}
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
