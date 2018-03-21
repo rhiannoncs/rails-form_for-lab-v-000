@@ -16,5 +16,6 @@ class StudentsController < ApplicationController
   end
 
   def update
+    @student.update(params.require(:student))
   end
 end
