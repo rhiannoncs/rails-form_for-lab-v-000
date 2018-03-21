@@ -10,4 +10,7 @@ class SchoolClassesController < ApplicationController
 
   def edit
   end
+
+  def new
+  end
 end
