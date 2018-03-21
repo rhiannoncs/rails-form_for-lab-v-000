@@ -16,6 +16,7 @@ class SchoolClassesController < ApplicationController
   end
 
   def update
+    @school_class = SchoolClass.find(params[:id])
     @school_class.update(params.require(:school_class))
   end
 end
