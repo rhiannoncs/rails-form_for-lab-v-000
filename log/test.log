@@ -694,3 +694,4 @@ Processing by SchoolClassesController#create as HTML
 Redirected to http://test.host/school_classes
 Completed 302 Found in 3ms (ActiveRecord: 0.4ms)
   [1m[36mSchoolClass Load (0.1ms)[0m  [1mSELECT  "school_classes".* FROM "school_classes"  ORDER BY "school_classes"."id" DESC LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
